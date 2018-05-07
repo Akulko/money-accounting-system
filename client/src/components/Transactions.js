@@ -9,7 +9,6 @@ class Transactions extends React.Component {
   }
 
   renderCards = () => {
-    console.log(this.props);
     return (
       <Accordion>
         {this.props.transactions.map(item => <Card key={item.id} balance={this.props.balance} {...item} />)}
