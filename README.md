@@ -8,7 +8,7 @@ Clone the repository:
 git clone https://github.com/Akulko/money-accounting-system
 ```
 
-Install dependencies:
+### Install dependencies:
 
 Server:
 
@@ -32,7 +32,7 @@ npm start
 
 ## Usage
 
-You can send requests using Postman:
+You can send requests via Postman or similar:
 
 ```sh
 {
