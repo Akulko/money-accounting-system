@@ -8,10 +8,10 @@ const executeTransaction = require("./helpers/executeTransaction");
 
 const app = express();
 const db = {
-  amount: 0,
+  amount: 60,
   transactions: [
     {
-      amount: 111,
+      amount: 110,
       effectiveDate: "2018-05-07T12:20:37.218Z",
       id: 1,
       type: "debit"
